@@ -1,0 +1,24 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+fonts/glyphicons-halflings-regular.eot
+fonts/glyphicons-halflings-regular.svg
+fonts/glyphicons-halflings-regular.ttf
+fonts/glyphicons-halflings-regular.woff
+fonts/glyphicons-halflings-regular.woff2
+scripts/app.js
+scripts/vendor.js
+styles/main.css
+styles/vendor.css
+fonts/ProximaNova/ProximaNova-Regular.eot
+fonts/ProximaNova/ProximaNova-Regular.ttf
+fonts/ProximaNova/ProximaNova-Regular.woff
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
+
+# hash: fb9939a52753a5c72a71e193f6ce70eeffaaad9b548a5aacbd29f3c123110b39

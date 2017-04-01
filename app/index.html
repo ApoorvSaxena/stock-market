@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Stock Market</title>
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" type="text/css" href="/node_modules/js-snackbar/dist/snackbar.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="/">Home</a></li>
+        </ul>
+        <h3 class="text-muted">Stock Market</h3>
+      </div>
+
+      <div id="stock-market">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th>Price</th>
+              <th>Last Update</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="footer">
+      </div>
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <!-- endbower -->
+    <script src="/bower_components/jquery-tiny-pubsub/dist/ba-tiny-pubsub.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/app.js -->
+    <script src="scripts/app.bundle.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

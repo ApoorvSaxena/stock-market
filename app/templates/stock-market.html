@@ -1,0 +1,18 @@
+<table class="table">
+	<thead>
+		<tr>
+			<th>Ticker</th>
+			<th>Price</th>
+			<th>Last Update</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% for(var name in stocks) { %>
+			<tr class="<%- getClassForStock(stocks[name]) %>">
+				<td class="text-uppercase"><%- name %></td>
+				<td><%- getLastPrice(stocks[name]) %></td>
+				<td><%- getTimeDifference(stocks[name]) %></td>
+			</tr>
+		<% } %>
+	</tbody>
+</table>

@@ -1,0 +1,18 @@
+{
+	"name": "stock.market",
+	"private": true,
+	"dependencies": {
+	  "bootstrap-sass": "~3.3.5",
+	  "jquery": "^3.2.1",
+	  "jquery-tiny-pubsub": "git://github.com/cowboy/jquery-tiny-pubsub.git#^0.7.0"
+	},
+	"overrides": {
+	  "bootstrap-sass": {
+	    "main": [
+	      "assets/stylesheets/_bootstrap.scss",
+	      "assets/fonts/bootstrap/*",
+	      "assets/javascripts/bootstrap.js"
+	    ]
+	  }
+	}
+}
