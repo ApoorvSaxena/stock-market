@@ -1,6 +1,6 @@
 # Stock Market
 
-![alt text](https://github.com/ApoorvSaxena/stock-market "Stock Market Screenshot")
+![alt text](https://raw.githubusercontent.com/ApoorvSaxena/stock-market/master/screenshots/Screen%20Shot%202017-04-01%20at%204.49.06%20PM.png "Stock Market Screenshot")
 
 ### Steps to get started:
 - Clone this repo
